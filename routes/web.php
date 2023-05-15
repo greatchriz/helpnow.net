@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PageController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,10 +14,14 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+//get all the pages and  create different routes for different pages they will all go through the PageController
 
-Route::get('/', function () {
-    return view('welcome');
-});
+$pages = App\Models\Page::all();
+
+
+Route::get('/', [PageController::class, 'home'])->name('home');
+Route::get('/about-us', [PageController::class, 'aboutUs'])->name('about-us');
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
