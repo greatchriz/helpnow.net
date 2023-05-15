@@ -11,7 +11,4 @@ class Page extends Model
 
     protected $fillable = ['title', 'slug', 'meta_title', 'meta_description'];
 
-    // model table name frontpages
-    protected $table = 'frontpages';
-
 }
