@@ -12,4 +12,3 @@ $classes = ($active ?? false)
         {{ $slot }}
     </a>
 </li>
-

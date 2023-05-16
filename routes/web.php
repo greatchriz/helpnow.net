@@ -21,6 +21,14 @@ $pages = App\Models\Page::all();
 
 Route::get('/', [PageController::class, 'home'])->name('home');
 Route::get('/about-us', [PageController::class, 'aboutUs'])->name('about-us');
+// our-work
+Route::get('/our-work', [PageController::class, 'ourWork'])->name('our-work');
+//get-involved
+Route::get('/get-involved', [PageController::class, 'getInvolved'])->name('get-involved');
+//donate
+Route::get('/donate', [PageController::class, 'donate'])->name('donate');
+//events
+Route::get('/events', [PageController::class, 'events'])->name('events');
 
 
 Route::get('/dashboard', function () {
