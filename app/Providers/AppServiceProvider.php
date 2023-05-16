@@ -20,8 +20,8 @@ class AppServiceProvider extends ServiceProvider
     public function boot(): void
     {
         //make pages available to all views
-        view()->composer('*', function ($view) {
-            $view->with('pages', \App\Models\Page::all());
-        });
+        // view()->composer('*', function ($view) {
+        //     $view->with('pages', \App\Models\Page::all());
+        // });
     }
 }
