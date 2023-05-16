@@ -16,8 +16,6 @@ use App\Http\Controllers\PageController;
 */
 //get all the pages and  create different routes for different pages they will all go through the PageController
 
-$pages = App\Models\Page::all();
-
 
 Route::get('/', [PageController::class, 'home'])->name('home');
 Route::get('/about-us', [PageController::class, 'aboutUs'])->name('about-us');

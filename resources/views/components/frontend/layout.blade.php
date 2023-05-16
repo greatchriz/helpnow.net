@@ -10,7 +10,7 @@
 <meta name="keywords" content="charity,crowdfunding,nonprofit,orphan,Poor,funding,fundrising,ngo,children" />
 <meta name="author" content="ThemeMascot" />
 
-@foreach($pages  as $page)
+{{-- @foreach($pages  as $page)
     @if($page->slug == request()->path())
         <title>{{ $page->meta_title }}</title>
         <meta name="description" content="{{ $page->meta_description }}" />
@@ -19,7 +19,7 @@
         <meta name="description" content="Help Now is a charity dedicated to empowering communities and changing lives. Support our mission by donating or volunteering. Join us in making a difference today!" />
     @endif
 
-@endforeach
+@endforeach --}}
 
 
 <!-- Favicon and Touch Icons -->
@@ -90,12 +90,12 @@
 
 
 
-    @foreach ($pages as $page)
+    {{-- @foreach ($pages as $page)
         <x-frontend.navlink :page="$page" :active="request()->path() === '/' ? $page->slug === 'home' : request()->path() === $page->slug">
             {{ $page->title }}
 
         </x-frontend.navlink>
-    @endforeach
+    @endforeach --}}
 
 
 
