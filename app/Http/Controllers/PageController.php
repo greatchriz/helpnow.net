@@ -23,6 +23,14 @@ class PageController extends Controller
         return view('frontend.about-us');
     }
 
+
+    // donate
+
+    public function donate()
+    {
+        return view('frontend.donate');
+    }
+
     /**
      * Store a newly created resource in storage.
      */
