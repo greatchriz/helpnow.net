@@ -1,355 +1,395 @@
-<x-frontend.layout>
+<x-layouts.frontend>
 
-    <!-- Section: inner-header -->
-    <section
-        class="inner-header divider parallax layer-overlay overlay-dark-5"
-        data-bg-img="/fundpro/images/bg/bg1.jpg"
-    >
-        <div class="container pt-100 pb-50">
-            <!-- Section Content -->
-            <div class="section-content pt-100">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h3 class="title text-white">About</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Section: About -->
-    <section class="bg-silver-light">
+    <!-- Start Hero -->
+    <section class="relative table w-full py-36 lg:py-44 bg-[url('../../assets/images/company/aboutus.html')] bg-no-repeat bg-center bg-cover" style="background-image: url(/assets/images/about-hero.jpg);">
+        <div class="absolute inset-0 bg-black opacity-75"></div>
         <div class="container">
-            <div class="section-content">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h2 class="text-uppercase font-weight-600 mt-0 font-28 line-bottom">Rise your
-                            Helping Hand please save the children.</h2>
-                        <h4 class="text-theme-colored">Lorem ipsum dolor sit amet soluta saepe odit error,
-                            maxime praesentium sunt udiandae!</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore atque officiis
-                            maxime suscipit expedita obcaecati nulla in ducimus iure quos quam recusandae
-                            dolor quas et perspiciatis voluptatum accusantium delectus nisi reprehenderit,
-                            eveniet fuga modi pariatur, eius vero. Ea vitae maiores.</p>
-                        <a
-                            class="btn btn-theme-colored btn-flat btn-lg mt-10 mb-sm-30"
-                            href="#"
-                        >Read More →</a>
-                    </div>
-                    <div class="col-md-6">
-                        <div
-                            class="owl-carousel-1col"
-                            data-nav="true"
-                        >
-                            <div class="item">
-                                <img
-                                    src="/fundpro/images/about/5.jpg"
-                                    alt=""
-                                >
-                            </div>
-                            <div class="item">
-                                <img
-                                    src="/fundpro/images/about/6.jpg"
-                                    alt=""
-                                >
-                            </div>
-                            <div class="item">
-                                <img
-                                    src="/fundpro/images/about/7.jpg"
-                                    alt=""
-                                >
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+            <div class="grid grid-cols-1 pb-8 text-center mt-10">
+                <h3 class="mb-6 md:text-4xl text-3xl md:leading-normal leading-normal font-medium text-white">About Us</h3>
 
-    <!-- Section: About  -->
-    <section id="about">
+                <p class="text-slate-300 text-lg max-w-xl mx-auto">Start working with Tailwind CSS that can provide everything you need to generate awareness, drive traffic, connect.</p>
+            </div><!--end grid-->
+        </div><!--end container-->
+
+        <div class="absolute text-center z-10 bottom-5 start-0 end-0 mx-3">
+            <ul class="breadcrumb tracking-[0.5px] breadcrumb-light mb-0 inline-block">
+                <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><a href="index.html">Techwind</a></li>
+                <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><a href="#">Company</a></li>
+                <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white" aria-current="page">Aboutus</li>
+            </ul>
+        </div>
+    </section><!--end section-->
+    <div class="relative">
+        <div class="shape absolute sm:-bottom-px -bottom-[2px] start-0 end-0 overflow-hidden z-1 text-white dark:text-slate-900">
+            <svg class="w-full h-auto" viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+            </svg>
+        </div>
+    </div>
+    <!-- End Hero -->
+
+    <!-- Start Section-->
+    <section class="relative md:py-24 py-16">
         <div class="container">
-            <div class="section-content">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-6 col-md-4">
-                        <h3 class="line-bottom border-bottom mt-0">Upcoming Events</h3>
-                        <div class="event media sm-maxwidth400 border-bottom mt-5 mb-0 pt-10 pb-15">
-                            <div class="row">
-                                <div class="col-xs-2 col-md-3 pr-0">
-                                    <div
-                                        class="event-date text-center bg-theme-colored border-1px p-0 pt-10 pb-10 sm-custom-style">
-                                        <ul>
-                                            <li class="font-28 text-white font-weight-700">28</li>
-                                            <li class="font-18 text-white text-center text-uppercase">Feb
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-xs-9 pr-10 pl-10">
-                                    <div class="event-content mt-10 p-5 pb-0 pt-0">
-                                        <h5 class="media-heading font-16 font-weight-600"><a href="#">Event:
-                                                Help The Children</a></h5>
-                                        <ul class="list-inline font-weight-600 text-gray-dimgray">
-                                            <li><i class="fa fa-clock-o text-theme-colored"></i> 5.00 pm -
-                                                7.30 pm</li>
-                                            <li> <i class="fa fa-map-marker text-theme-colored"></i> 25
-                                                Newyork City.</li>
-                                        </ul>
-                                    </div>
-                                </div>
+            <div class="grid md:grid-cols-12 grid-cols-1 items-center gap-[30px]">
+                <div class="lg:col-span-5 md:col-span-6">
+                    <div class="grid grid-cols-12 gap-6 items-center">
+                        <div class="col-span-6">
+                            <div class="grid grid-cols-1 gap-6">
+                                <img src="assets/images/about/ab03.jpg" class="shadow rounded-md" alt="">
+                                <img src="assets/images/about/ab02.jpg" class="shadow rounded-md" alt="">
                             </div>
                         </div>
-                        <div class="event media sm-maxwidth400 border-bottom mt-5 mb-0 pt-10 pb-15">
-                            <div class="row">
-                                <div class="col-xs-2 col-md-3 pr-0">
-                                    <div
-                                        class="event-date text-center bg-theme-colored border-1px p-0 pt-10 pb-10 sm-custom-style">
-                                        <ul>
-                                            <li class="font-28 text-white font-weight-700">26</li>
-                                            <li class="font-18 text-white text-center text-uppercase">OCT
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-xs-9 pr-10 pl-10">
-                                    <div class="event-content mt-10 p-5 pb-0 pt-0">
-                                        <h5 class="media-heading font-16 font-weight-600"><a href="#">Event:
-                                                Foods For Poor</a></h5>
-                                        <ul class="list-inline font-weight-600 text-gray-dimgray">
-                                            <li><i class="fa fa-clock-o text-theme-colored"></i> 6.00 pm -
-                                                8.30 pm</li>
-                                            <li> <i class="fa fa-map-marker text-theme-colored"></i> 25
-                                                Newyork City.</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="event media sm-maxwidth400 mt-5 mb-0 pt-10 pb-15">
-                            <div class="row">
-                                <div class="col-xs-2 col-md-3 pr-0">
-                                    <div
-                                        class="event-date text-center bg-theme-colored border-1px p-0 pt-10 pb-10 sm-custom-style">
-                                        <ul>
-                                            <li class="font-28 text-white font-weight-700">12</li>
-                                            <li class="font-18 text-white text-center text-uppercase">DEC
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-xs-9 pr-10 pl-10">
-                                    <div class="event-content mt-10 p-5 pb-0 pt-0">
-                                        <h5 class="media-heading font-16 font-weight-600"><a href="#">Event:
-                                                Save The Water</a></h5>
-                                        <ul class="list-inline font-weight-600 text-gray-dimgray">
-                                            <li><i class="fa fa-clock-o text-theme-colored"></i> 4.00 pm -
-                                                6.00 pm</li>
-                                            <li> <i class="fa fa-map-marker text-theme-colored"></i> 25
-                                                Newyork City.</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-md-4">
-                        <h3 class="line-bottom border-bottom mt-0 mt-sm-20">Our Mission</h3>
-                        <img
-                            src="/fundpro/images/about/a1.jpg"
-                            class="img-fullwidth"
-                            alt=""
-                        >
-                        <p class="mt-15">Lorem ipsum dolor sit amet, conse ctetur adipis elit. Totam
-                            perferendis, assumenda vitae cum beatae Pariatur, ratione adipis elit. Totam
-                            perfereding.</p>
-                        <a
-                            href="#"
-                            class="btn btn-colored btn-sm btn-theme-colored"
-                        >read more</a>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-4">
-                        <h3 class="text-uppercase line-bottom mt-sm-30 mt-0">Get <span class="text-theme-colored">
-                                Involved</span></h3>
-                        <div class="icon-box icon-box-effect mb-20 p-15 bg-light border-bottom-theme-color-3px">
-                            <a
-                                href="#"
-                                class="icon mb-0 mr-0 pull-left flip"
-                            >
-                                <i class="flaticon-charity-responsible-energy-use text-theme-colored font-48"></i>
-                            </a>
-                            <div class="ml-80">
-                                <h5 class="icon-box-title mt-15 mb-5"><strong>Become a Donar</strong></h5>
-                                <p class="text-gray">Lorem ipsum dolor sit ametcon elit sectetu
-                                    radipisicing. Mollitia quasi.<a
-                                        class="font-14 pl-10 text-theme-colored"
-                                        href="page-about1.html"
-                                    > read more...</a></p>
-                            </div>
-                        </div>
-                        <div class="icon-box icon-box-effect mb-20 p-15 bg-light border-bottom-theme-color-3px">
-                            <a
-                                href="#"
-                                class="icon mb-0 mr-0 pull-left flip"
-                            >
-                                <i class="flaticon-charity-shelter text-theme-colored font-48"></i>
-                            </a>
-                            <div class="ml-80">
-                                <h5 class="icon-box-title mt-15 mb-5"><strong>Become a Volunteer</strong>
-                                </h5>
-                                <p class="text-gray">Lorem ipsum dolor sit ametcon elit sectetu
-                                    radipisicing. Mollitia quasi.<a
-                                        class="font-14 pl-10 text-theme-colored"
-                                        href="page-about1.html"
-                                    > read more...</a></p>
+
+                        <div class="col-span-6">
+                            <div class="grid grid-cols-1 gap-6">
+                                <img src="assets/images/about/ab01.jpg" class="shadow rounded-md" alt="">
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- divider: Emergency Services -->
-    <section
-        class="divider parallax layer-overlay overlay-dark-9"
-        data-stellar-background-ratio="0.2"
-        data-bg-img="/fundpro/images/bg/bg2.jpg"
-    >
+                <div class="lg:col-span-7 md:col-span-6">
+                    <div class="lg:ms-5">
+                        <div class="flex mb-4">
+                            <span class="text-indigo-600 text-2xl font-bold mb-0"><span class="counter-value text-6xl font-bold" data-target="15">1</span>+</span>
+                            <span class="self-end font-medium ms-2">Years <br> Experience</span>
+                        </div>
+
+                        <h3 class="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Who we are ?</h3>
+
+                        <p class="text-slate-400 max-w-xl">Start working with Tailwind CSS that can provide everything you need to generate awareness, drive traffic, connect. Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with 'real' content.</p>
+
+                        <div class="mt-6">
+                            <a href="contact-one.html" class="btn bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md me-2 mt-2"><i class="uil uil-envelope"></i> Contact us</a>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end grid-->
+        </div><!--end container-->
+
+        <!-- Business Partner -->
+        <div class="container mt-8">
+            <div class="grid md:grid-cols-6 grid-cols-2 justify-center gap-[30px]">
+                <div class="mx-auto mt-8">
+                    <img src="assets/images/client/amazon.svg" class="h-6" alt="">
+                </div>
+
+                <div class="mx-auto mt-8">
+                    <img src="assets/images/client/google.svg" class="h-6" alt="">
+                </div>
+
+                <div class="mx-auto mt-8">
+                    <img src="assets/images/client/lenovo.svg" class="h-6" alt="">
+                </div>
+
+                <div class="mx-auto mt-8">
+                    <img src="assets/images/client/paypal.svg" class="h-6" alt="">
+                </div>
+
+                <div class="mx-auto mt-8">
+                    <img src="assets/images/client/shopify.svg" class="h-6" alt="">
+                </div>
+
+                <div class="mx-auto mt-8">
+                    <img src="assets/images/client/spotify.svg" class="h-6" alt="">
+                </div>
+            </div><!--end grid-->
+        </div><!--end container-->
+        <!-- Business Partner -->
+    </section><!--end section-->
+    <!-- End Section-->
+
+    <!-- Start -->
+    <section class="relative md:py-24 py-16 bg-gray-50 dark:bg-slate-800">
         <div class="container">
-            <div class="section-content text-center">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h3 class="mt-0 text-white">How you can help us</h3>
-                        <h2 class="text-white">Just call at <span class="text-theme-colored">(01) 234
-                                5678</span> to make a donation</h2>
+            <div class="grid grid-cols-1 pb-8 text-center">
+                <h3 class="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Key Features</h3>
+
+                <p class="text-slate-400 max-w-xl mx-auto">Start working with Tailwind CSS that can provide everything you need to generate awareness, drive traffic, connect.</p>
+            </div><!--end grid-->
+
+            <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[30px] mt-8">
+                <div class="flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-800 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md bg-white dark:bg-slate-900">
+                    <div class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-45 bg-gradient-to-r from-transparent to-indigo-600/10 text-indigo-600 text-center rounded-full me-3">
+                        <i data-feather="monitor" class="h-5 w-5 rotate-45"></i>
+                    </div>
+                    <div class="flex-1">
+                        <h4 class="mb-0 text-lg font-medium">Fully Responsive</h4>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Section: volunteers -->
-    <section class="bg-lighter">
+                <div class="flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-800 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md bg-white dark:bg-slate-900">
+                    <div class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-45 bg-gradient-to-r from-transparent to-indigo-600/10 text-indigo-600 text-center rounded-full me-3">
+                        <i data-feather="heart" class="h-5 w-5 rotate-45"></i>
+                    </div>
+                    <div class="flex-1">
+                        <h4 class="mb-0 text-lg font-medium">Browser Compatibility</h4>
+                    </div>
+                </div>
+
+                <div class="flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-800 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md bg-white dark:bg-slate-900">
+                    <div class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-45 bg-gradient-to-r from-transparent to-indigo-600/10 text-indigo-600 text-center rounded-full me-3">
+                        <i data-feather="eye" class="h-5 w-5 rotate-45"></i>
+                    </div>
+                    <div class="flex-1">
+                        <h4 class="mb-0 text-lg font-medium">Retina Ready</h4>
+                    </div>
+                </div>
+
+                <div class="flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-800 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md bg-white dark:bg-slate-900">
+                    <div class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-45 bg-gradient-to-r from-transparent to-indigo-600/10 text-indigo-600 text-center rounded-full me-3">
+                        <i data-feather="layout" class="h-5 w-5 rotate-45"></i>
+                    </div>
+                    <div class="flex-1">
+                        <h4 class="mb-0 text-lg font-medium">Based On Tailwindcss 3</h4>
+                    </div>
+                </div>
+
+                <div class="flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-800 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md bg-white dark:bg-slate-900">
+                    <div class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-45 bg-gradient-to-r from-transparent to-indigo-600/10 text-indigo-600 text-center rounded-full me-3">
+                        <i data-feather="feather" class="h-5 w-5 rotate-45"></i>
+                    </div>
+                    <div class="flex-1">
+                        <h4 class="mb-0 text-lg font-medium">Feather Icons</h4>
+                    </div>
+                </div>
+
+                <div class="flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-800 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md bg-white dark:bg-slate-900">
+                    <div class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-45 bg-gradient-to-r from-transparent to-indigo-600/10 text-indigo-600 text-center rounded-full me-3">
+                        <i data-feather="code" class="h-5 w-5 rotate-45"></i>
+                    </div>
+                    <div class="flex-1">
+                        <h4 class="mb-0 text-lg font-medium">Built With SASS</h4>
+                    </div>
+                </div>
+
+                <div class="flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-800 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md bg-white dark:bg-slate-900">
+                    <div class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-45 bg-gradient-to-r from-transparent to-indigo-600/10 text-indigo-600 text-center rounded-full me-3">
+                        <i data-feather="user-check" class="h-5 w-5 rotate-45"></i>
+                    </div>
+                    <div class="flex-1">
+                        <h4 class="mb-0 text-lg font-medium">W3c Valid Code</h4>
+                    </div>
+                </div>
+
+                <div class="flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-800 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md bg-white dark:bg-slate-900">
+                    <div class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-45 bg-gradient-to-r from-transparent to-indigo-600/10 text-indigo-600 text-center rounded-full me-3">
+                        <i data-feather="globe" class="h-5 w-5 rotate-45"></i>
+                    </div>
+                    <div class="flex-1">
+                        <h4 class="mb-0 text-lg font-medium">Browsers Compatible</h4>
+                    </div>
+                </div>
+
+                <div class="flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-800 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md bg-white dark:bg-slate-900">
+                    <div class="flex items-center justify-center h-[45px] min-w-[45px] -rotate-45 bg-gradient-to-r from-transparent to-indigo-600/10 text-indigo-600 text-center rounded-full me-3">
+                        <i data-feather="settings" class="h-5 w-5 rotate-45"></i>
+                    </div>
+                    <div class="flex-1">
+                        <h4 class="mb-0 text-lg font-medium">Easy to customize</h4>
+                    </div>
+                </div>
+            </div><!--end grid-->
+
+            <div class="grid grid-cols-1 justify-center">
+                <div class="mt-6 text-center">
+                    <a href="page-services.html" class="btn bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md me-2 mt-2">See More <i class="uil uil-arrow-right"></i></a>
+                </div>
+            </div>
+        </div><!--end contanier-->
+    </section><!--end section-->
+    <!-- End -->
+
+    <!-- Start -->
+    <section class="relative md:py-24 py-16 bg-gray-50 dark:bg-slate-800 md:pt-0 pt-0">
         <div class="container">
-            <div class="section-title text-center">
-                <div class="row">
-                    <div class="col-md-10 col-md-offset-1">
-                        <h2 class="text-uppercase line-bottom-center mt-0">Our <span
-                                class="text-theme-colored font-weight-600"
-                            >volunteers</span></h2>
-                        <div class="title-icon">
-                            <i class="flaticon-charity-hand-holding-a-heart"></i>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem voluptatem
-                            obcaecati! <br>ipsum dolor sit Rem autem voluptatem obcaecati</p>
-                    </div>
-                </div>
-            </div>
-            <div class="section-content">
-                <div class="row">
-                    <div class="col-sm-6 col-md-3">
-                        <div
-                            class="team box-hover-effect effect3 border-1px border-bottom-theme-color-2px sm-text-center maxwidth400 mb-sm-30">
-                            <div class="thumb"><img
-                                    class="img-fullwidth"
-                                    src="/fundpro/images/team/5.jpg"
-                                    alt=""
-                                ></div>
-                            <div class="content bg-white p-20 text-center">
-                                <h4 class="name mb-0 mt-0"><a
-                                        class="text-theme-colored"
-                                        href="#"
-                                    >Sakib John</a></h4>
-                                <p>Student / Joined May'16</p>
-                                <p class="mb-20">Lorem ipsum dolor sit amet, con amit sectetur adipisicing
-                                </p>
-                                <ul class="styled-icons icon-dark icon-theme-colored icon-sm">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                                </ul>
+            <div class="grid grid-cols-1 justify-center">
+                <div class="relative z-1">
+                    <div class="grid lg:grid-cols-12 grid-cols-1 ltr:md:text-left rtl:md:text-right text-center justify-center">
+                        <div class="lg:col-start-2 lg:col-span-10">
+                            <div class="relative">
+                                <img src="assets/images/cta-bg.jpg" class="rounded-md shadow-lg" alt="">
+                                <div class="absolute bottom-2/4 translate-y-2/4 start-0 end-0 text-center">
+                                    <a href="#!" data-type="youtube" data-id="yba7hPeTSjk"
+                                        class="lightbox h-20 w-20 rounded-full shadow-lg dark:shadow-gray-800 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-indigo-600 dark:text-white">
+                                        <i class="mdi mdi-play inline-flex items-center justify-center text-2xl"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-3">
-                        <div
-                            class="team box-hover-effect effect3 border-1px border-bottom-theme-color-2px sm-text-center maxwidth400 mb-sm-30">
-                            <div class="thumb"><img
-                                    class="img-fullwidth"
-                                    src="/fundpro/images/team/6.jpg"
-                                    alt=""
-                                ></div>
-                            <div class="content bg-white p-20 text-center">
-                                <h4 class="name mb-0 mt-0"><a
-                                        class="text-theme-colored"
-                                        href="#"
-                                    >Fiona John</a></h4>
-                                <p>Student / Joined May'16</p>
-                                <p class="mb-20">Lorem ipsum dolor sit amet, con amit sectetur adipisicing
-                                </p>
-                                <ul class="styled-icons icon-dark icon-theme-colored icon-sm">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-3">
-                        <div
-                            class="team box-hover-effect effect3 border-1px border-bottom-theme-color-2px sm-text-center maxwidth400 mb-sm-30">
-                            <div class="thumb"><img
-                                    class="img-fullwidth"
-                                    src="/fundpro/images/team/7.jpg"
-                                    alt=""
-                                ></div>
-                            <div class="content bg-white p-20 text-center">
-                                <h4 class="name mb-0 mt-0"><a
-                                        class="text-theme-colored"
-                                        href="#"
-                                    >Ismail Smith</a></h4>
-                                <p>Student / Joined May'16</p>
-                                <p class="mb-20">Lorem ipsum dolor sit amet, con amit sectetur adipisicing
-                                </p>
-                                <ul class="styled-icons icon-dark icon-theme-colored icon-sm">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-3">
-                        <div
-                            class="team box-hover-effect effect3 border-1px border-bottom-theme-color-2px sm-text-center maxwidth400">
-                            <div class="thumb"><img
-                                    class="img-fullwidth"
-                                    src="/fundpro/images/team/8.jpg"
-                                    alt=""
-                                ></div>
-                            <div class="content bg-white p-20 text-center">
-                                <h4 class="name mb-0 mt-0"><a
-                                        class="text-theme-colored"
-                                        href="#"
-                                    >Jerin Smith</a></h4>
-                                <p>Student / Joined May'16</p>
-                                <p class="mb-20">Lorem ipsum dolor sit amet, con amit sectetur adipisicing
-                                </p>
-                                <ul class="styled-icons icon-dark icon-theme-colored icon-sm">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                    <div class="content md:mt-8">
+                        <div class="grid lg:grid-cols-12 grid-cols-1 ltr:md:text-left rtl:md:text-right text-center justify-center">
+                            <div class="lg:col-start-2 lg:col-span-10">
+                                <div class="grid md:grid-cols-2 grid-cols-1 items-center">
+                                    <div class="mt-8">
+                                        <div class="section-title text-md-start">
+                                            <h6 class="text-white/50 text-lg font-semibold">Team</h6>
+                                            <h3 class="md:text-3xl text-2xl md:leading-normal leading-normal font-semibold text-white mt-2">Meet Experience <br> Team Member</h3>
+                                        </div>
+                                    </div>
 
-</x-frontend.layout>
+                                    <div class="mt-8">
+                                        <div class="section-title text-md-start">
+                                            <p class="text-white/50 max-w-xl mx-auto mb-2">Start working with Techwind that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                            <a href="#" class="text-white">Read More <i class="uil uil-angle-right-b align-middle"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end row -->
+        </div><!--end container-->
+
+        <div class="absolute bottom-0 start-0 end-0 sm:h-2/3 h-4/5 bg-gradient-to-b from-indigo-500 to-indigo-600"></div>
+    </section><!--end section-->
+    <!-- End -->
+
+    <!-- Start -->
+    <section class="relative md:py-24 py-16 bg-gray-50 dark:bg-slate-800 md:pb-0 pb-0">
+        <div class="container">
+            <div class="grid grid-cols-1 pb-8 text-center">
+                <h3 class="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Our Professional Team</h3>
+
+                <p class="text-slate-400 max-w-xl mx-auto">Start working with Tailwind CSS that can provide everything you need to generate awareness, drive traffic, connect.</p>
+            </div><!--end grid-->
+
+            <div class="grid md:grid-cols-12 grid-cols-1 mt-8 gap-[30px]">
+                <div class="lg:col-span-3 md:col-span-6">
+                    <div class="team p-6 rounded-md border border-gray-100 dark:border-gray-700 group bg-white dark:bg-slate-900">
+                        <img src="assets/images/client/01.jpg" class="h-24 w-24 rounded-full shadow-md dark:shadow-gray-800" alt="">
+
+                        <div class="content mt-4">
+                            <a href="#" class="text-lg font-medium hover:text-indigo-600 block">Ronny Jofra</a>
+                            <span class="text-slate-400 block">C.E.O.</span>
+
+                            <p class="text-slate-400 mt-4">If the distribution of letters and 'words' is random</p>
+
+                            <ul class="list-none mt-4">
+                                <li class="inline"><a href="#" class="btn btn-icon btn-sm border border-gray-100 dark:border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 hover:text-white"><i data-feather="facebook" class="h-4 w-4"></i></a></li>
+                                <li class="inline"><a href="#" class="btn btn-icon btn-sm border border-gray-100 dark:border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 hover:text-white"><i data-feather="instagram" class="h-4 w-4"></i></a></li>
+                                <li class="inline"><a href="#" class="btn btn-icon btn-sm border border-gray-100 dark:border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 hover:text-white"><i data-feather="twitter" class="h-4 w-4"></i></a></li>
+                                <li class="inline"><a href="#" class="btn btn-icon btn-sm border border-gray-100 dark:border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 hover:text-white"><i data-feather="linkedin" class="h-4 w-4"></i></a></li>
+                            </ul><!--end icon-->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-3 md:col-span-6">
+                    <div class="team p-6 rounded-md border border-gray-100 dark:border-gray-700 group bg-white dark:bg-slate-900">
+                        <img src="assets/images/client/02.jpg" class="h-24 w-24 rounded-full shadow-md dark:shadow-gray-800" alt="">
+
+                        <div class="content mt-4">
+                            <a href="#" class="text-lg font-medium hover:text-indigo-600 block">Aliana Rosy</a>
+                            <span class="text-slate-400 block">HR</span>
+
+                            <p class="text-slate-400 mt-4">If the distribution of letters and 'words' is random</p>
+
+                            <ul class="list-none mt-4">
+                                <li class="inline"><a href="#" class="btn btn-icon btn-sm border border-gray-100 dark:border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 hover:text-white"><i data-feather="facebook" class="h-4 w-4"></i></a></li>
+                                <li class="inline"><a href="#" class="btn btn-icon btn-sm border border-gray-100 dark:border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 hover:text-white"><i data-feather="instagram" class="h-4 w-4"></i></a></li>
+                                <li class="inline"><a href="#" class="btn btn-icon btn-sm border border-gray-100 dark:border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 hover:text-white"><i data-feather="twitter" class="h-4 w-4"></i></a></li>
+                                <li class="inline"><a href="#" class="btn btn-icon btn-sm border border-gray-100 dark:border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 hover:text-white"><i data-feather="linkedin" class="h-4 w-4"></i></a></li>
+                            </ul><!--end icon-->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-3 md:col-span-6">
+                    <div class="team p-6 rounded-md border border-gray-100 dark:border-gray-700 group bg-white dark:bg-slate-900">
+                        <img src="assets/images/client/03.jpg" class="h-24 w-24 rounded-full shadow-md dark:shadow-gray-800" alt="">
+
+                        <div class="content mt-4">
+                            <a href="#" class="text-lg font-medium hover:text-indigo-600 block">Sofia Razaq</a>
+                            <span class="text-slate-400 block">C.O.O.</span>
+
+                            <p class="text-slate-400 mt-4">If the distribution of letters and 'words' is random</p>
+
+                            <ul class="list-none mt-4">
+                                <li class="inline"><a href="#" class="btn btn-icon btn-sm border border-gray-100 dark:border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 hover:text-white"><i data-feather="facebook" class="h-4 w-4"></i></a></li>
+                                <li class="inline"><a href="#" class="btn btn-icon btn-sm border border-gray-100 dark:border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 hover:text-white"><i data-feather="instagram" class="h-4 w-4"></i></a></li>
+                                <li class="inline"><a href="#" class="btn btn-icon btn-sm border border-gray-100 dark:border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 hover:text-white"><i data-feather="twitter" class="h-4 w-4"></i></a></li>
+                                <li class="inline"><a href="#" class="btn btn-icon btn-sm border border-gray-100 dark:border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 hover:text-white"><i data-feather="linkedin" class="h-4 w-4"></i></a></li>
+                            </ul><!--end icon-->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-3 md:col-span-6">
+                    <div class="team p-6 rounded-md border border-gray-100 dark:border-gray-700 group bg-white dark:bg-slate-900">
+                        <img src="assets/images/client/04.jpg" class="h-24 w-24 rounded-full shadow-md dark:shadow-gray-800" alt="">
+
+                        <div class="content mt-4">
+                            <a href="#" class="text-lg font-medium hover:text-indigo-600 block">Micheal Carlo</a>
+                            <span class="text-slate-400 block">Director</span>
+
+                            <p class="text-slate-400 mt-4">If the distribution of letters and 'words' is random</p>
+
+                            <ul class="list-none mt-4">
+                                <li class="inline"><a href="#" class="btn btn-icon btn-sm border border-gray-100 dark:border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 hover:text-white"><i data-feather="facebook" class="h-4 w-4"></i></a></li>
+                                <li class="inline"><a href="#" class="btn btn-icon btn-sm border border-gray-100 dark:border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 hover:text-white"><i data-feather="instagram" class="h-4 w-4"></i></a></li>
+                                <li class="inline"><a href="#" class="btn btn-icon btn-sm border border-gray-100 dark:border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 hover:text-white"><i data-feather="twitter" class="h-4 w-4"></i></a></li>
+                                <li class="inline"><a href="#" class="btn btn-icon btn-sm border border-gray-100 dark:border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 hover:text-white"><i data-feather="linkedin" class="h-4 w-4"></i></a></li>
+                            </ul><!--end icon-->
+                        </div>
+                    </div>
+                </div>
+            </div><!--end grid-->
+        </div><!--end container-->
+
+        <div class="container md:mt-24 mt-16">
+            <div class="grid md:grid-cols-12 grid-cols-1 items-center">
+                <div class="lg:col-span-5 md:col-span-6 md:order-1 order-2">
+                    <div class="relative overflow-hidden after:content-[''] after:absolute after:h-40 after:w-40 after:bg-red-600/5 after:top-5 after:start-0 after:end-0 after:mx-auto after:-z-0 after:rounded-3xl after:animate-[spin_10s_linear_infinite]">
+                        <img src="assets/images/hero2.png" class="relative z-1" alt="">
+                    </div>
+                </div>
+
+                <div class="lg:col-span-7 md:col-span-6 md:order-2 order-1">
+                    <div class="tiny-single-item">
+                        <div class="tiny-slide text-center">
+                            <img src="assets/images/client/amazon.svg" class="h-6 mx-auto" alt="">
+                            <p class="text-slate-400 mt-6">" If the distribution of letters and 'words' is random, the reader will not be distracted from making a neutral judgement on the visual impact and readability of the typefaces (typography), or the distribution of text on the page consists of a more or less random series of words or syllables. "</p>
+                            <h6 class="text-indigo-600 font-semibold mt-3">- Thomas Israel</h6>
+                        </div>
+
+                        <div class="tiny-slide text-center">
+                            <img src="assets/images/client/google.svg" class="h-6 mx-auto" alt="">
+                            <p class="text-slate-400 mt-6">" If the distribution of letters and 'words' is random, the reader will not be distracted from making a neutral judgement on the visual impact and readability of the typefaces (typography), or the distribution of text on the page consists of a more or less random series of words or syllables. "</p>
+                            <h6 class="text-indigo-600 font-semibold mt-3">- Carl Oliver</h6>
+                        </div>
+
+                        <div class="tiny-slide text-center">
+                            <img src="assets/images/client/lenovo.svg" class="h-6 mx-auto" alt="">
+                            <p class="text-slate-400 mt-6">" If the distribution of letters and 'words' is random, the reader will not be distracted from making a neutral judgement on the visual impact and readability of the typefaces (typography), or the distribution of text on the page consists of a more or less random series of words or syllables. "</p>
+                            <h6 class="text-indigo-600 font-semibold mt-3">- Barbara McIntosh</h6>
+                        </div>
+
+                        <div class="tiny-slide text-center">
+                            <img src="assets/images/client/paypal.svg" class="h-6 mx-auto" alt="">
+                            <p class="text-slate-400 mt-6">" If the distribution of letters and 'words' is random, the reader will not be distracted from making a neutral judgement on the visual impact and readability of the typefaces (typography), or the distribution of text on the page consists of a more or less random series of words or syllables. "</p>
+                            <h6 class="text-indigo-600 font-semibold mt-3">- Jill Webb</h6>
+                        </div>
+
+                        <div class="tiny-slide text-center">
+                            <img src="assets/images/client/shopify.svg" class="h-6 mx-auto" alt="">
+                            <p class="text-slate-400 mt-6">" If the distribution of letters and 'words' is random, the reader will not be distracted from making a neutral judgement on the visual impact and readability of the typefaces (typography), or the distribution of text on the page consists of a more or less random series of words or syllables. "</p>
+                            <h6 class="text-indigo-600 font-semibold mt-3">- Dean Tolle</h6>
+                        </div>
+
+                        <div class="tiny-slide text-center">
+                            <img src="assets/images/client/spotify.svg" class="h-6 mx-auto" alt="">
+                            <p class="text-slate-400 mt-6">" If the distribution of letters and 'words' is random, the reader will not be distracted from making a neutral judgement on the visual impact and readability of the typefaces (typography), or the distribution of text on the page consists of a more or less random series of words or syllables. "</p>
+                            <h6 class="text-indigo-600 font-semibold mt-3">- Christa Smith</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--end container-->
+    </section><!--end section-->
+    <!-- End -->
+
+</x-layouts.frontend>

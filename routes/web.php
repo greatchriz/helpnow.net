@@ -29,6 +29,8 @@ Route::get('/get-involved', [PageController::class, 'getInvolved'])->name('get-i
 Route::get('/donate', [PageController::class, 'donate'])->name('donate');
 //events
 Route::get('/events', [PageController::class, 'events'])->name('events');
+//services
+Route::get('/services', [PageController::class, 'services'])->name('services');
 
 
 Route::get('/dashboard', function () {
