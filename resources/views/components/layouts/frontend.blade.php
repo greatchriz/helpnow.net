@@ -15,7 +15,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
         <!-- favicon -->
-        <link rel="shortcut icon" href="assets/images/favicon.ico" />
+        <link rel="shortcut icon" href="assets/img/favicon.ico" />
 
         <!-- Css -->
         <link href="assets/libs/tobii/css/tobii.min.css" rel="stylesheet">
@@ -54,12 +54,12 @@
         <nav id="topnav" class="defaultscroll is-sticky">
             <div class="container">
                 <!-- Logo container-->
-                <a class="logo" href="index.html">
+                <a class="logo" href="/">
                     <span class="inline-block dark:hidden">
-                        <img src="assets/images/logo-dark.png" class="l-dark" height="24" alt="">
-                        <img src="assets/images/logo-light.png" class="l-light" height="24" alt="">
+                        <img src="assets/img/logo/dark.png" class="l-dark" height="24" alt="">
+                        <img src="assets/img/logo/light.png" class="l-light" height="24" alt="">
                     </span>
-                    <img src="assets/images/logo-dark.png" height="24"  class="hidden dark:inline-block" alt="">
+                    <img src="assets/img/logo/dark.png" height="24"  class="hidden dark:inline-block" alt="">
                 </a>
 
                 <!-- End Logo container-->
@@ -78,29 +78,32 @@
                 </div>
 
                 <!--Login button Start-->
-                {{-- <ul class="buy-button list-none mb-0">
+                <ul class="buy-button list-none mb-0">
                     <li class="inline mb-0">
                         <a href="#">
-                            <span class="login-btn-primary"><span class="btn btn-icon rounded-full bg-indigo-600/5 hover:bg-indigo-600 border-indigo-600/10 hover:border-indigo-600 text-indigo-600 hover:text-white"><i data-feather="settings" class="h-4 w-4"></i></span></span>
-                            <span class="login-btn-light"><span class="btn btn-icon rounded-full bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700"><i data-feather="settings" class="h-4 w-4"></i></span></span>
+
+                            <span class="login-btn-light"><span class="btn btn-icon rounded-full bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700"><i data-feather="heart" class="h-4 w-4"></i></span></span>
                         </a>
                     </li>
 
                     <li class="inline ps-1 mb-0">
-                        <a href="https://1.envato.market/techwind" target="_blank">
-                            <div class="login-btn-primary"><span class="btn btn-icon rounded-full bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white"><i data-feather="shopping-cart" class="h-4 w-4"></i></span></div>
-                            <div class="login-btn-light"><span class="btn btn-icon rounded-full bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700"><i data-feather="shopping-cart" class="h-4 w-4"></i></span></div>
+                        <a href="/donate">
+                            <div class="login-btn-primary"><span class="btn btn-icon rounded-full bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white"><i data-feather="heart" class="h-4 w-4"></i></span>
+
                         </a>
                     </li>
-                </ul> --}}
+                </ul>
                 <!--Login button End-->
 
                 <div id="navigation">
                     <!-- Navigation Menu-->
                     <ul class="navigation-menu nav-light">
-                        <li><a href="index.html" class="sub-menu-item">Home</a></li>
+                        <li><a href="/" class="sub-menu-item">Home</a></li>
 
-                        <li class="has-submenu parent-parent-menu-item">
+                        <li><a href="/about-us" class="sub-menu-item">about Us</a></li>
+                        <li><a href="/charitable-campaigns" class="sub-menu-item">Charitable Campaigns</a></li>
+                        <li><a href="/deep-dive" class="sub-menu-item">Deep Dive</a></li>
+                        {{-- <li class="has-submenu parent-parent-menu-item">
                             <a href="javascript:void(0)">Landings</a><span class="menu-arrow"></span>
 
                             <ul class="submenu megamenu">
@@ -395,10 +398,13 @@
                                 <li><a href="changelog.html" class="sub-menu-item">Changelog</a></li>
                                 <li><a href="widget.html" class="sub-menu-item">Widget</a></li>
                             </ul>
-                        </li>
+                        </li> --}}
 
-                        <li><a href="contact-one.html" class="sub-menu-item">Contact</a></li>
+                        <li><a href="/contact-us" class="sub-menu-item">Contact</a></li>
+
+
                     </ul><!--end navigation menu-->
+
                 </div><!--end navigation-->
             </div><!--end container-->
         </nav><!--end header-->
@@ -419,19 +425,18 @@
                             <div class="grid md:grid-cols-12 grid-cols-1 gap-[30px]">
                                 <div class="lg:col-span-4 md:col-span-12">
                                     <a href="#" class="text-[22px] focus:outline-none">
-                                        <img src="assets/images/logo-light.png" alt="">
+                                        <img src="assets/img/logo/light.png" alt="">
                                     </a>
                                     <p class="mt-6 text-gray-300">Start working with Tailwind CSS that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                     <ul class="list-none mt-6">
-                                        <li class="inline"><a href="https://1.envato.market/techwind" target="_blank" class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i class="uil uil-shopping-cart align-middle" title="Buy Now"></i></a></li>
-                                        <li class="inline"><a href="https://dribbble.com/shreethemes" target="_blank" class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i class="uil uil-dribbble align-middle" title="dribbble"></i></a></li>
-                                        <li class="inline"><a href="https://www.behance.net/shreethemes" target="_blank" class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i class="uil uil-behance" title="Behance"></i></a></li>
-                                        <li class="inline"><a href="http://linkedin.com/company/shreethemes" target="_blank" class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i class="uil uil-linkedin" title="Linkedin"></i></a></li>
-                                        <li class="inline"><a href="https://www.facebook.com/shreethemes" target="_blank" class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i class="uil uil-facebook-f align-middle" title="facebook"></i></a></li>
-                                        <li class="inline"><a href="https://www.instagram.com/shreethemes/" target="_blank" class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i class="uil uil-instagram align-middle" title="instagram"></i></a></li>
-                                        <li class="inline"><a href="https://twitter.com/shreethemes" target="_blank" class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i class="uil uil-twitter align-middle" title="twitter"></i></a></li>
-                                        <li class="inline"><a href="mailto:support@shreethemes.in" class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i class="uil uil-envelope align-middle" title="email"></i></a></li>
-                                        <li class="inline"><a href="https://forms.gle/QkTueCikDGqJnbky9" target="_blank" class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i class="uil uil-file align-middle" title="customization"></i></a></li>
+                                        <li class="inline"><a href="/" class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i class="uil uil-shopping-cart align-middle" title="Buy Now"></i></a></li>
+                                        <li class="inline"><a href="/" class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i class="uil uil-dribbble align-middle" title="dribbble"></i></a></li>
+                                        <li class="inline"><a href="/" class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i class="uil uil-behance" title="Behance"></i></a></li>
+                                        <li class="inline"><a href="/" class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i class="uil uil-linkedin" title="Linkedin"></i></a></li>
+                                        <li class="inline"><a href="/" class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i class="uil uil-facebook-f align-middle" title="facebook"></i></a></li>
+                                        <li class="inline"><a href="/" class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i class="uil uil-instagram align-middle" title="instagram"></i></a></li>
+                                        <li class="inline"><a href="/" class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i class="uil uil-twitter align-middle" title="twitter"></i></a></li>
+
                                     </ul><!--end icon-->
                                 </div><!--end col-->
 
@@ -445,17 +450,6 @@
                                         <li class="mt-[10px]"><a href="portfolio-creative-four.html" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i class="uil uil-angle-right-b"></i> Project</a></li>
                                         <li class="mt-[10px]"><a href="blog.html" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i class="uil uil-angle-right-b"></i> Blog</a></li>
                                         <li class="mt-[10px]"><a href="auth-login.html" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i class="uil uil-angle-right-b"></i> Login</a></li>
-                                    </ul>
-                                </div><!--end col-->
-
-                                <div class="lg:col-span-3 md:col-span-4">
-                                    <h5 class="tracking-[1px] text-gray-100 font-semibold">Usefull Links</h5>
-                                    <ul class="list-none footer-list mt-6">
-                                        <li><a href="page-terms.html" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i class="uil uil-angle-right-b"></i> Terms of Services</a></li>
-                                        <li class="mt-[10px]"><a href="page-privacy.html" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i class="uil uil-angle-right-b"></i> Privacy Policy</a></li>
-                                        <li class="mt-[10px]"><a href="documentation.html" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i class="uil uil-angle-right-b"></i> Documentation</a></li>
-                                        <li class="mt-[10px]"><a href="changelog.html" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i class="uil uil-angle-right-b"></i> Changelog</a></li>
-                                        <li class="mt-[10px]"><a href="widget.html" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i class="uil uil-angle-right-b"></i> Widget</a></li>
                                     </ul>
                                 </div><!--end col-->
 
@@ -486,15 +480,15 @@
                 <div class="container text-center">
                     <div class="grid md:grid-cols-2 items-center">
                         <div class="ltr:md:text-left rtl:md:text-right text-center">
-                            <p class="mb-0">© <script>document.write(new Date().getFullYear())</script> Techwind. Design with <i class="mdi mdi-heart text-red-600"></i> by <a href="https://shreethemes.in/" target="_blank" class="text-reset">Shreethemes</a>.</p>
+                            <p class="mb-0">© <script>document.write(new Date().getFullYear())</script> Help Now.</p>
                         </div>
 
                         <ul class="list-none ltr:md:text-right rtl:md:text-left text-center mt-6 md:mt-0">
-                            <li class="inline"><a href="#"><img src="assets/images/payments/american-ex.png" class="max-h-6 inline" title="American Express" alt=""></a></li>
-                            <li class="inline"><a href="#"><img src="assets/images/payments/discover.png" class="max-h-6 inline" title="Discover" alt=""></a></li>
-                            <li class="inline"><a href="#"><img src="assets/images/payments/master-card.png" class="max-h-6 inline" title="Master Card" alt=""></a></li>
-                            <li class="inline"><a href="#"><img src="assets/images/payments/paypal.png" class="max-h-6 inline" title="Paypal" alt=""></a></li>
-                            <li class="inline"><a href="#"><img src="assets/images/payments/visa.png" class="max-h-6 inline" title="Visa" alt=""></a></li>
+                            <li class="inline"><a href="#"><img src="assets/img/payments/american-ex.png" class="max-h-6 inline" title="American Express" alt=""></a></li>
+                            <li class="inline"><a href="#"><img src="assets/img/payments/discover.png" class="max-h-6 inline" title="Discover" alt=""></a></li>
+                            <li class="inline"><a href="#"><img src="assets/img/payments/master-card.png" class="max-h-6 inline" title="Master Card" alt=""></a></li>
+                            <li class="inline"><a href="#"><img src="assets/img/payments/paypal.png" class="max-h-6 inline" title="Paypal" alt=""></a></li>
+                            <li class="inline"><a href="#"><img src="assets/img/payments/visa.png" class="max-h-6 inline" title="Visa" alt=""></a></li>
                         </ul>
                     </div><!--end grid-->
                 </div><!--end container-->
