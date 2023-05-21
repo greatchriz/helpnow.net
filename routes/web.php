@@ -31,6 +31,8 @@ Route::get('/donate', [PageController::class, 'donate'])->name('donate');
 Route::get('/events', [PageController::class, 'events'])->name('events');
 //services
 Route::get('/services', [PageController::class, 'services'])->name('services');
+//volunteer
+Route::get('/volunteer', [PageController::class, 'volunteer'])->name('volunteer');
 
 
 Route::get('/dashboard', function () {

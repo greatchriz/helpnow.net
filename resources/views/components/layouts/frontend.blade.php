@@ -3,40 +3,41 @@
 
 <!-- Mirrored from shreethemes.in/techwind/layouts/index-charity.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 May 2023 16:46:01 GMT -->
 <head>
-        <meta charset="UTF-8" />
-        <title>Techwind - Tailwind CSS Multipurpose Landing Page Template</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="Tailwind CSS Saas & Software Landing Page Template" />
-        <meta name="keywords" content="agency, application, business, clean, creative, cryptocurrency, it solutions, modern, multipurpose, nft marketplace, portfolio, saas, software, tailwind css" />
-        <meta name="author" content="Shreethemes" />
-        <meta name="website" content="https://shreethemes.in/" />
-        <meta name="email" content="support@shreethemes.in" />
-        <meta name="version" content="1.8.0" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Help Now - Empowering Lives, Creating Change">
+    <meta name="keywords" content="charity, non-profit, organization, empowerment, social change">
+    <meta name="author" content="Help Now Charity Organization">
 
-        <!-- favicon -->
-        <link rel="shortcut icon" href="assets/img/favicon.ico" />
+    <!-- Page Title -->
+    <title>Help Now | Empowering Lives, Creating Change</title>
 
-        <!-- Css -->
-        <link href="assets/libs/tobii/css/tobii.min.css" rel="stylesheet">
-        <link href="assets/libs/tiny-slider/tiny-slider.css" rel="stylesheet">
-        <!-- Main Css -->
-        <link href="assets/libs/%40iconscout/unicons/css/line.css" type="text/css" rel="stylesheet" />
-        <link rel="stylesheet" href="assets/css/icons.css" />
-        <link rel="stylesheet" href="assets/css/tailwind.css" />
+    <meta name="version" content="1.8.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-        <style>
-            .navcontainer {
-                display: flex;
-                max-width: 1536px;
-                padding-right: 13rem;
-                padding-left: 13rem;
-                align-items: center;
-                justify-content: space-evenly;
-            }
-        </style>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" />
 
-    </head>
+    <!-- Css -->
+    <link href="assets/libs/tobii/css/tobii.min.css" rel="stylesheet">
+    <link href="assets/libs/tiny-slider/tiny-slider.css" rel="stylesheet">
+    <!-- Main Css -->
+    <link href="assets/libs/%40iconscout/unicons/css/line.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/icons.css" />
+    <link rel="stylesheet" href="assets/css/tailwind.css" />
+
+    <style>
+        .navcontainer {
+            display: flex;
+            max-width: 1536px;
+            padding-right: 13rem;
+            padding-left: 13rem;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+    </style>
+
+</head>
 
     <body class="font-nunito text-base text-black dark:text-white dark:bg-slate-900">
         <!-- Loader Start -->
@@ -427,7 +428,7 @@
                                     <a href="#" class="text-[22px] focus:outline-none">
                                         <img src="assets/img/logo/light.png" alt="">
                                     </a>
-                                    <p class="mt-6 text-gray-300">Start working with Tailwind CSS that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                    <p class="mt-6 text-gray-300">At Help Now, we are dedicated to making a positive impact in the lives of those in need. Our mission is to empower individuals, families, and communities, and create lasting change. Through our comprehensive programs and initiatives, we strive to address pressing social issues, provide essential resources, and promote equality and justice..</p>
                                     <ul class="list-none mt-6">
                                         <li class="inline"><a href="/" class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i class="uil uil-shopping-cart align-middle" title="Buy Now"></i></a></li>
                                         <li class="inline"><a href="/" class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i class="uil uil-dribbble align-middle" title="dribbble"></i></a></li>
@@ -443,32 +444,20 @@
                                 <div class="lg:col-span-2 md:col-span-4">
                                     <h5 class="tracking-[1px] text-gray-100 font-semibold">Company</h5>
                                     <ul class="list-none footer-list mt-6">
-                                        <li><a href="page-aboutus.html" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i class="uil uil-angle-right-b"></i> About us</a></li>
-                                        <li class="mt-[10px]"><a href="page-services.html" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i class="uil uil-angle-right-b"></i> Services</a></li>
-                                        <li class="mt-[10px]"><a href="page-team.html" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i class="uil uil-angle-right-b"></i> Team</a></li>
-                                        <li class="mt-[10px]"><a href="page-pricing.html" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i class="uil uil-angle-right-b"></i> Pricing</a></li>
-                                        <li class="mt-[10px]"><a href="portfolio-creative-four.html" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i class="uil uil-angle-right-b"></i> Project</a></li>
-                                        <li class="mt-[10px]"><a href="blog.html" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i class="uil uil-angle-right-b"></i> Blog</a></li>
-                                        <li class="mt-[10px]"><a href="auth-login.html" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i class="uil uil-angle-right-b"></i> Login</a></li>
+                                        <li><a href="/about-us" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i class="uil uil-angle-right-b"></i> About us</a></li>
+                                        <li class="mt-[10px]"><a href="/" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i class="uil uil-angle-right-b"></i> Services</a></li>
+                                        <li class="mt-[10px]"><a href="/" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i class="uil uil-angle-right-b"></i> Team</a></li>
+                                        <li class="mt-[10px]"><a href="/" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i class="uil uil-angle-right-b"></i> Pricing</a></li>
+                                        <li class="mt-[10px]"><a href="/" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i class="uil uil-angle-right-b"></i> Project</a></li>
+                                        <li class="mt-[10px]"><a href="/donate" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i class="uil uil-angle-right-b"></i> Donate</a></li>
+
                                     </ul>
                                 </div><!--end col-->
 
                                 <div class="lg:col-span-3 md:col-span-4">
-                                    <h5 class="tracking-[1px] text-gray-100 font-semibold">Newsletter</h5>
-                                    <p class="mt-6">Sign up and receive the latest tips via email.</p>
-                                    <form>
-                                        <div class="grid grid-cols-1">
-                                            <div class="foot-subscribe my-3">
-                                                <label class="form-label">Write your email <span class="text-red-600">*</span></label>
-                                                <div class="form-icon relative mt-2">
-                                                    <i data-feather="mail" class="w-4 h-4 absolute top-3 start-4"></i>
-                                                    <input type="email" class="form-input bg-gray-800 border border-gray-800 text-gray-100 ps-12 focus:shadow-none" placeholder="Email" name="email" required="">
-                                                </div>
-                                            </div>
-
-                                            <button type="submit" id="submitsubscribe" name="send" class="btn bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Subscribe</button>
-                                        </div>
-                                    </form>
+                                    <h5 class="tracking-[1px] text-gray-100 font-semibold">Join Our Cause:</h5>
+                                    <p class="mt-6">You can make a difference by joining our cause and supporting our work. Whether through volunteering, donating, or spreading awareness, together we can create a better world.</p>
+                                    <a href="/volunteer" class="btn btn-primary mt-4">Join Now</a>
                                 </div><!--end col-->
                             </div><!--end grid-->
                         </div><!--end col-->

@@ -38,6 +38,13 @@ class PageController extends Controller
         return view('frontend.services');
     }
 
+    //volunteer
+
+    public function volunteer()
+    {
+        return view('frontend.volunteer');
+    }
+
     /**
      * Store a newly created resource in storage.
      */
