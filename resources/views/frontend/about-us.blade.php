@@ -92,12 +92,35 @@
         />
 
         <x-partials.frontend.team-section-item
-            image="/assets/img/about/vision/02.webp"
+            image="/assets/img/about/strategy/02.webp"
             title="Better quality life"
-            content1="We believe that no family should face their journey alone: we want to increase reach so that more children and families can access 24/7 palliative care."
-            content2="Right now, there is a postcode lottery of support. Not all families are able to access the care they need. There is a growing demand on services because more babies are born with life-limiting conditions and more young adults are surviving into adulthood."
-            content3="And families from BAME communities, or those living in deprived areas, are more likely to have children with life-limiting conditions in the first place."
-            content4="This has a major impact on family health and wellbeing. Families can feel isolated and exhausted caring 24/7 and don’t know where to turn, with rates of family breakdown higher in families caring for seriously ill children. Shockingly, mothers of seriously ill children are 50% more likely to die prematurely themselves."
+            content1="We want to improve the quality of children’s palliative care so families have the best support and care possible."
+            content2="Across the country there is a lack of consistency in the amount and quality of palliative care that children and families receive. There are not enough trained doctors, nurses and health and care professionals to provide care, and children’s palliative care is poorly understood among the wider health and care workforce."
+            content3="This means that many families are referred to children’s palliative care too late or not at all and don’t benefit from services that could help them. There is also more pressure on specialist sector professionals to meet the needs of children and families, and services don’t have sufficient workforce to meet increasingly complex needs."
+        />
+
+
+        <x-partials.frontend.team-section-item
+            image="/assets/img/about/strategy/03.webp"
+
+            title="A sustainable sector"
+
+            content1="Families not only need support today, they need it tomorrow and every day. We want to strengthen the sustainability of children’s palliative care so that families can rely on support."
+
+            content2="Right now, the costs of running services are rising and funding is reliant on public donations. Government funding varies across the UK – some hospices receive over half of their budgets from the state, while one in five hospices receive less than 5% of theirs."
+
+            content3="Unpredictable funding means that services struggle to plan effectively or meet needs, and when fundi. Last year, half of children’s hospices saw their from the NHS fall, and this can lead to cuts in services –increasing the pressure pressure on families and children."
+        />
+
+
+        <x-partials.frontend.team-section-item
+            image="/assets/img/about/strategy/04.webp"
+
+            title="Building our capacity"
+
+            content1="To make our strategy happen we need to be in the best shape possible to deliver for children, families and the services that support them."
+
+            content2="We are investing in programmes and service development, fundraising and communications. We have reviewed our purpose and values. But there is more work to do to make sure we can deliver impact for children and families"
         />
 
     </x-partials.frontend.team-section>

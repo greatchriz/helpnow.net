@@ -34,6 +34,9 @@ Route::get('/services', [PageController::class, 'services'])->name('services');
 //volunteer
 Route::get('/volunteer', [PageController::class, 'volunteer'])->name('volunteer');
 
+//changing-lives
+Route::get('/changing-lives', [PageController::class, 'changingLives'])->name('changing-lives');
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');

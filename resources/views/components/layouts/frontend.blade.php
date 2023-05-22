@@ -102,7 +102,7 @@
                         <li><a href="/" class="sub-menu-item">Home</a></li>
 
                         <li><a href="/about-us" class="sub-menu-item">about Us</a></li>
-                        <li><a href="/charitable-campaigns" class="sub-menu-item">Charitable Campaigns</a></li>
+                        <li><a href="/changing-lives" class="sub-menu-item">Changing Lives</a></li>
                         <li><a href="/deep-dive" class="sub-menu-item">Deep Dive</a></li>
                         {{-- <li class="has-submenu parent-parent-menu-item">
                             <a href="javascript:void(0)">Landings</a><span class="menu-arrow"></span>

@@ -45,6 +45,14 @@ class PageController extends Controller
         return view('frontend.volunteer');
     }
 
+    //changing-lives
+
+    public function changingLives()
+    {
+        return view('frontend.changing-lives');
+    }
+
+
     /**
      * Store a newly created resource in storage.
      */
