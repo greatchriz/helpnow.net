@@ -511,6 +511,10 @@
         </div>
         <!-- LTR & RTL Mode Code -->
 
+        {{-- tidio live chat --}}
+
+        <script src="//code.tidio.co/vfqh1kmcskmzs9o3mmlqiw1ypprflybn.js" async></script>
+
         <!-- JAVASCRIPTS -->
         <script src="assets/libs/tobii/js/tobii.min.js"></script>
         <script src="assets/libs/tiny-slider/min/tiny-slider.js"></script>
