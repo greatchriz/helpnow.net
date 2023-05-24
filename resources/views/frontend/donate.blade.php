@@ -7,15 +7,14 @@
                     <div class="p-6 rounded-lg border-t-8 border-indigo-600 bg-white dark:bg-slate-900 shadow-lg dark:shadow-gray-800">
                         <div class="mb-6 text-center">
                             <h4 class="font-bold lg:leading-normal leading-normal text-3xl mb-3">Make a Donation</h4>
-                            <p class="text-slate-400">To make an offline donation toward this cause, please use the following Crypto currency Wallet details.</p>
+                            <p class="text-slate-400">To make a donation toward this cause, please use the following Crypto currency Wallet details of your choice.</p>
 
-                            <p class="text-slate-400 mt-2">Bitcoin Wallet Address: <span class="text-indigo-600">1J5P1YXQ5JQ8z5Q4XhQ2jZx5H6XKQ6XJ5</span></p>
+                            <p class="text-slate-400 mt-2">Bitcoin Wallet Address: <span class="text-indigo-600">bc1qqfwpgqdzulhpuwg0e260gflevm8z4at95tsx6h</span></p>
 
-                            <p class="text-slate-400 mt-2">Ethereum Wallet Address: <span class="text-indigo-600">0x4Ee7E1E5D4c4cF3b8d5Bc0bBf1e4f4f8e2f9D2F9</span></p>
+                            <p class="text-slate-400 mt-2">USDT Trc20 Wallet Address: <span class="text-indigo-600">TUWKyCf9uFvs2dAJF8L7UkD3w5u6SVrwdy</span></p>
 
-                            <p class="text-slate-400 mt-2">Litecoin Wallet Address: <span class="text-indigo-600">Lh7oFgXKs6J6pQc1iYvzr6J6pQc1iYvzr</span></p>
+                            <p class="text-slate-400 mt-2">USDT Erc20 Wallet Address: <span class="text-indigo-600">0xB6114101b64dA83fa8c7BdAE49bFa4eEF22404f7</span></p>
 
-                            <p class="text-slate-400 mt-2">Dogecoin Wallet Address: <span class="text-indigo-600">D6pQc1iYvzr6J6pQc1iYvzr6J6pQc1iYvzr</span></p>
                         </div>
 
                         <form>
@@ -36,21 +35,46 @@
 
                                 <div class="mb-5">
                                     <label class="form-label font-medium">I Want to Donate for</label>
-                                    <select class="form-select form-input mt-2">
-                                        <option value="Donate For Food">Donate For Food</option>
-                                        <option value="Food For Orphan">Food For Orphan</option>
-                                        <option value="Home For Homeless">Home For Homeless</option>
-                                        <option value="Holyday Gifts In Kind">Holyday Gifts In Kind</option>
-                                        <option value="For clean Water in Africa">For clean Water in Africa</option>
-                                        <option value="Health and Rights">Health and Rights</option>
-                                    </select>
+
                                 </div>
+
+                                <div class="m-2 border p-2">
+                                    <label class="form-label font-medium">
+                                        Food for orphan
+                                    </label>
+
+                                    <input type="radio" class="form-radio mt-2" name="donate_reason" value="Food for orphan" checked="">
+
+
+                                </div>
+
+                                <div class="m-2 border p-2">
+                                    <label class="form-label font-medium">
+                                        Home for Homeless
+                                    </label>
+
+                                    <input type="radio" class="form-radio mt-2" name="donate_reason" value="Home for Homeless" checked="">
+
+
+                                </div>
+
+
+                                <div class="m-2 border p-2">
+                                    <label class="form-label font-medium">
+                                        Clean Water in Africa.
+                                    </label>
+
+                                    <input type="radio" class="form-radio mt-2" name="donate_reason" value="Clean Water in Africa" checked="">
+
+
+                                </div>
+
 
                                 <div class="mb-5">
                                     <label class="form-label small fw-bold">How much do you want to donate ?</label>
                                     <div class="relative mt-2">
                                         <span class="absolute top-0.5 lstart-0.5 w-9 h-9 text-xl bg-gray-200 dark:bg-slate-700 inline-flex justify-center items-center text-dark dark:text-white rounded" id="basic-addon1"><i class="uil uil-usd-circle"></i></span>
-                                        <input type="number" class="form-input ps-12" min="1" max="1000" placeholder="Enter Amount" id="amount" aria-describedby="inputGroupPrepend" required>
+                                        <input type="number" class="form-input ps-12" min="1" max="5000000000000" placeholder="Enter Amount" id="amount" aria-describedby="inputGroupPrepend" required>
                                     </div>
                                 </div><!--end col-->
 

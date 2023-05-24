@@ -81,7 +81,7 @@
                 <!--Login button Start-->
                 <ul class="buy-button list-none mb-0">
                     <li class="inline mb-0">
-                        <a href="#">
+                        <a href="/donate">
 
                             <span class="login-btn-light"><span class="btn btn-icon rounded-full bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700"><i data-feather="heart" class="h-4 w-4"></i></span></span>
                         </a>
@@ -401,7 +401,7 @@
                             </ul>
                         </li> --}}
 
-                        <li><a href="/contact-us" class="sub-menu-item">Contact</a></li>
+                        <li><a href="/donate" class="sub-menu-item">Donate</a></li>
 
 
                     </ul><!--end navigation menu-->
