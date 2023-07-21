@@ -34,7 +34,7 @@ class PageController extends Controller
     public function donate()
     {
 
-        Mail::to('great.chriz@gmail.com')->send(new DonationReceived());
+        Mail::to('goncolvesalvez@​yahoo.com')->send(new DonationReceived());
 
         dd('itworked');
 
