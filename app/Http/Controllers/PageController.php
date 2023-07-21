@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Faq;
 use App\Models\Page;
+use App\Models\Policy;
 use Illuminate\Http\Request;
 
 class PageController extends Controller
@@ -33,9 +35,12 @@ class PageController extends Controller
 
     //services
 
-    public function services()
+    public function paliativeCareNetwork()
     {
-        return view('frontend.services');
+        $faqs = Faq::all();
+        return view('frontend.paliative', [
+            'faqs' => $faqs
+        ]);
     }
 
     //volunteer
@@ -49,7 +54,10 @@ class PageController extends Controller
 
     public function changingLives()
     {
-        return view('frontend.changing-lives');
+        $policies = Policy::all();
+        return view('frontend.changing-lives', [
+            'policies' => $policies
+        ]);
     }
 
 

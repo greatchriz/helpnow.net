@@ -103,7 +103,7 @@
 
                         <li><a href="/about-us" class="sub-menu-item">about Us</a></li>
                         <li><a href="/changing-lives" class="sub-menu-item">Changing Lives</a></li>
-                        <li><a href="/deep-dive" class="sub-menu-item">Deep Dive</a></li>
+                        <li><a href="/palliative-care-networks" class="sub-menu-item">Palliative care networks</a></li>
                         {{-- <li class="has-submenu parent-parent-menu-item">
                             <a href="javascript:void(0)">Landings</a><span class="menu-arrow"></span>
 
@@ -516,12 +516,14 @@
         <script src="//code.tidio.co/vfqh1kmcskmzs9o3mmlqiw1ypprflybn.js" async></script>
 
         <!-- JAVASCRIPTS -->
+        <script src="assets/libs/jarallax/jarallax.min.js"></script>
+        <script src="assets/libs/shufflejs/shuffle.min.js"></script>
         <script src="assets/libs/tobii/js/tobii.min.js"></script>
         <script src="assets/libs/tiny-slider/min/tiny-slider.js"></script>
         <script src="assets/libs/feather-icons/feather.min.js"></script>
         <script src="assets/js/plugins.init.js"></script>
         <script src="assets/js/app.js"></script>
-        <!-- JAVASCRIPTS -->
+
     </body>
 
 <!-- Mirrored from shreethemes.in/techwind/layouts/index-charity.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 May 2023 16:46:07 GMT -->

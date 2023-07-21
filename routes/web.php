@@ -32,7 +32,7 @@ Route::get('/events', [PageController::class, 'events'])->name('events');
 //services
 Route::get('/services', [PageController::class, 'services'])->name('services');
 //volunteer
-Route::get('/volunteer', [PageController::class, 'volunteer'])->name('volunteer');
+Route::get('/palliative-care-networks', [PageController::class, 'paliativeCareNetwork'])->name('palliative-care-networks');
 
 //changing-lives
 Route::get('/changing-lives', [PageController::class, 'changingLives'])->name('changing-lives');
