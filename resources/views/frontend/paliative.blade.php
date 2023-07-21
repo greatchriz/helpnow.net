@@ -59,7 +59,7 @@
             <div class="grid lg:grid-cols-12 grid-cols-1" id="reserve-form">
                 <div class="lg:col-start-2 lg:col-span-10">
 
-                    <h5 class="mb-4 font-medium text-xl text-indigo-600">
+                    <h5 class="mb-4 font-medium text-lg text-indigo-600">
                         In the UK, a network of compassionate children's palliative care providers and organizations stands united in their mission to enhance the lives of children facing life-limiting conditions and their families. These palliative care networks operate in diverse ways, but their core focus remains on fostering collaboration among professionals and stakeholders from the children's palliative care sector. Breaking through organizational barriers, they exchange best practices and strategize effective service planning to address the unique needs of each child.
                     </h5>
 
