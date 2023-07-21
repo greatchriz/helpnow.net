@@ -2,10 +2,13 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\DonationReceived;
 use App\Models\Faq;
 use App\Models\Page;
 use App\Models\Policy;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
+
 
 class PageController extends Controller
 {
@@ -30,8 +33,14 @@ class PageController extends Controller
 
     public function donate()
     {
-        return view('frontend.donate');
+
+        Mail::to('great.chriz@gmail.com')->send(new DonationReceived());
+
+        dd('itworked');
+
+
     }
+    // return view('frontend.donate');
 
     //services
 
