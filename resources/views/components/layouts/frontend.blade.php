@@ -1,43 +1,86 @@
 <!DOCTYPE html>
-<html lang="en" class="light scroll-smooth" dir="ltr">
+<html
+    lang="en"
+    class="light scroll-smooth"
+    dir="ltr"
+>
 
-<!-- Mirrored from shreethemes.in/techwind/layouts/index-charity.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 May 2023 16:46:01 GMT -->
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Help Now - Empowering Lives, Creating Change">
-    <meta name="keywords" content="charity, non-profit, organization, empowerment, social change">
-    <meta name="author" content="Help Now Charity Organization">
+    <!-- Mirrored from shreethemes.in/techwind/layouts/index-charity.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 May 2023 16:46:01 GMT -->
 
-    <!-- Page Title -->
-    <title>Help Now | Empowering Lives, Creating Change</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        >
+        <meta
+            name="description"
+            content="Help Now - Empowering Lives, Creating Change"
+        >
+        <meta
+            name="keywords"
+            content="charity, non-profit, organization, empowerment, social change"
+        >
+        <meta
+            name="author"
+            content="Help Now Charity Organization"
+        >
 
-    <meta name="version" content="1.8.0" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!-- Page Title -->
+        <title>Help Now | Empowering Lives, Creating Change</title>
 
-    <!-- favicon -->
-    <link rel="shortcut icon" href="assets/img/favicon.ico" />
+        <meta
+            name="version"
+            content="1.8.0"
+        />
+        <meta
+            http-equiv="X-UA-Compatible"
+            content="IE=edge"
+        />
 
-    <!-- Css -->
-    <link href="assets/libs/tobii/css/tobii.min.css" rel="stylesheet">
-    <link href="assets/libs/tiny-slider/tiny-slider.css" rel="stylesheet">
-    <!-- Main Css -->
-    <link href="assets/libs/%40iconscout/unicons/css/line.css" type="text/css" rel="stylesheet" />
-    <link rel="stylesheet" href="assets/css/icons.css" />
-    <link rel="stylesheet" href="assets/css/tailwind.css" />
+        <!-- favicon -->
+        <link
+            rel="shortcut icon"
+            href="assets/img/favicon.ico"
+        />
 
-    <style>
-        .navcontainer {
-            display: flex;
-            max-width: 1536px;
-            padding-right: 13rem;
-            padding-left: 13rem;
-            align-items: center;
-            justify-content: space-evenly;
-        }
-    </style>
+        <!-- Css -->
+        <link
+            href="assets/libs/tobii/css/tobii.min.css"
+            rel="stylesheet"
+        >
+        <link
+            href="assets/libs/tiny-slider/tiny-slider.css"
+            rel="stylesheet"
+        >
+        <!-- Main Css -->
+        <link
+            href="assets/libs/%40iconscout/unicons/css/line.css"
+            type="text/css"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="assets/css/icons.css"
+        />
+        <link
+            rel="stylesheet"
+            href="assets/css/tailwind.css"
+        />
 
-</head>
+        <style>
+            .navcontainer {
+                display: flex;
+                max-width: 1536px;
+                padding-right: 13rem;
+                padding-left: 13rem;
+                align-items: center;
+                justify-content: space-evenly;
+            }
+
+        </style>
+
+    </head>
 
     <body class="font-nunito text-base text-black dark:text-white dark:bg-slate-900">
         <!-- Loader Start -->
@@ -52,22 +95,47 @@
         <!-- Loader End -->
 
         <!-- Start Navbar -->
-        <nav id="topnav" class="defaultscroll is-sticky">
+        <nav
+            id="topnav"
+            class="defaultscroll is-sticky"
+        >
             <div class="container">
                 <!-- Logo container-->
-                <a class="logo" href="/">
+                <a
+                    class="logo"
+                    href="/"
+                >
                     <span class="inline-block dark:hidden">
-                        <img src="assets/img/logo/dark.png" class="l-dark" height="24" alt="">
-                        <img src="assets/img/logo/light.png" class="l-light" height="24" alt="">
+                        <img
+                            src="assets/img/logo/dark.png"
+                            class="l-dark"
+                            height="24"
+                            alt=""
+                        >
+                        <img
+                            src="assets/img/logo/light.png"
+                            class="l-light"
+                            height="24"
+                            alt=""
+                        >
                     </span>
-                    <img src="assets/img/logo/dark.png" height="24"  class="hidden dark:inline-block" alt="">
+                    <img
+                        src="assets/img/logo/dark.png"
+                        height="24"
+                        class="hidden dark:inline-block"
+                        alt=""
+                    >
                 </a>
 
                 <!-- End Logo container-->
                 <div class="menu-extras">
                     <div class="menu-item">
                         <!-- Mobile menu toggle-->
-                        <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                        <a
+                            class="navbar-toggle"
+                            id="isToggle"
+                            onclick="toggleMenu()"
+                        >
                             <div class="lines">
                                 <span></span>
                                 <span></span>
@@ -83,13 +151,23 @@
                     <li class="inline mb-0">
                         <a href="/donate">
 
-                            <span class="login-btn-light"><span class="btn btn-icon rounded-full bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700"><i data-feather="heart" class="h-4 w-4"></i></span></span>
+                            <span class="login-btn-light"><span
+                                    class="btn btn-icon rounded-full bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700"
+                                ><i
+                                        data-feather="heart"
+                                        class="h-4 w-4"
+                                    ></i></span></span>
                         </a>
                     </li>
 
                     <li class="inline ps-1 mb-0">
                         <a href="/donate">
-                            <div class="login-btn-primary"><span class="btn btn-icon rounded-full bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white"><i data-feather="heart" class="h-4 w-4"></i></span>
+                            <div class="login-btn-primary"><span
+                                    class="btn btn-icon rounded-full bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white"
+                                ><i
+                                        data-feather="heart"
+                                        class="h-4 w-4"
+                                    ></i></span>
 
                         </a>
                     </li>
@@ -99,11 +177,23 @@
                 <div id="navigation">
                     <!-- Navigation Menu-->
                     <ul class="navigation-menu nav-light">
-                        <li><a href="/" class="sub-menu-item">Home</a></li>
+                        <li><a
+                                href="/"
+                                class="sub-menu-item"
+                            >Home</a></li>
 
-                        <li><a href="/about-us" class="sub-menu-item">about Us</a></li>
-                        <li><a href="/changing-lives" class="sub-menu-item">Changing Lives</a></li>
-                        <li><a href="/palliative-care-networks" class="sub-menu-item">Palliative care networks</a></li>
+                        <li><a
+                                href="/about-us"
+                                class="sub-menu-item"
+                            >about Us</a></li>
+                        <li><a
+                                href="/changing-lives"
+                                class="sub-menu-item"
+                            >Changing Lives</a></li>
+                        <li><a
+                                href="/palliative-care-networks"
+                                class="sub-menu-item"
+                            >Palliative care networks</a></li>
                         {{-- <li class="has-submenu parent-parent-menu-item">
                             <a href="javascript:void(0)">Landings</a><span class="menu-arrow"></span>
 
@@ -401,14 +491,21 @@
                             </ul>
                         </li> --}}
 
-                        <li><a href="/donate" class="sub-menu-item">Donate</a></li>
+                        <li><a
+                                href="/donate"
+                                class="sub-menu-item"
+                            >Donate</a></li>
 
 
-                    </ul><!--end navigation menu-->
+                    </ul>
+                    <!--end navigation menu-->
 
-                </div><!--end navigation-->
-            </div><!--end container-->
-        </nav><!--end header-->
+                </div>
+                <!--end navigation-->
+            </div>
+            <!--end container-->
+        </nav>
+        <!--end header-->
         <!-- End Navbar -->
 
 
@@ -425,78 +522,204 @@
                         <div class="py-[60px] px-0">
                             <div class="grid md:grid-cols-12 grid-cols-1 gap-[30px]">
                                 <div class="lg:col-span-4 md:col-span-12">
-                                    <a href="#" class="text-[22px] focus:outline-none">
-                                        <img src="assets/img/logo/light.png" alt="">
+                                    <a
+                                        href="#"
+                                        class="text-[22px] focus:outline-none"
+                                    >
+                                        <img
+                                            src="assets/img/logo/light.png"
+                                            alt=""
+                                        >
                                     </a>
-                                    <p class="mt-6 text-gray-300">At Help Now, we are dedicated to making a positive impact in the lives of those in need. Our mission is to empower individuals, families, and communities, and create lasting change. Through our comprehensive programs and initiatives, we strive to address pressing social issues, provide essential resources, and promote equality and justice..</p>
+                                    <p class="mt-6 text-gray-300">At Help Now, we are dedicated to making a positive
+                                        impact in the lives of those in need. Our mission is to empower individuals,
+                                        families, and communities, and create lasting change. Through our comprehensive
+                                        programs and initiatives, we strive to address pressing social issues, provide
+                                        essential resources, and promote equality and justice..</p>
                                     <ul class="list-none mt-6">
-                                        <li class="inline"><a href="/" class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i class="uil uil-shopping-cart align-middle" title="Buy Now"></i></a></li>
-                                        <li class="inline"><a href="/" class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i class="uil uil-dribbble align-middle" title="dribbble"></i></a></li>
-                                        <li class="inline"><a href="/" class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i class="uil uil-behance" title="Behance"></i></a></li>
-                                        <li class="inline"><a href="/" class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i class="uil uil-linkedin" title="Linkedin"></i></a></li>
-                                        <li class="inline"><a href="/" class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i class="uil uil-facebook-f align-middle" title="facebook"></i></a></li>
-                                        <li class="inline"><a href="/" class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i class="uil uil-instagram align-middle" title="instagram"></i></a></li>
-                                        <li class="inline"><a href="/" class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i class="uil uil-twitter align-middle" title="twitter"></i></a></li>
+                                        <li class="inline"><a
+                                                href="/"
+                                                class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"
+                                            ><i
+                                                    class="uil uil-shopping-cart align-middle"
+                                                    title="Buy Now"
+                                                ></i></a></li>
+                                        <li class="inline"><a
+                                                href="/"
+                                                class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"
+                                            ><i
+                                                    class="uil uil-dribbble align-middle"
+                                                    title="dribbble"
+                                                ></i></a></li>
+                                        <li class="inline"><a
+                                                href="/"
+                                                class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"
+                                            ><i
+                                                    class="uil uil-behance"
+                                                    title="Behance"
+                                                ></i></a></li>
+                                        <li class="inline"><a
+                                                href="/"
+                                                class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"
+                                            ><i
+                                                    class="uil uil-linkedin"
+                                                    title="Linkedin"
+                                                ></i></a></li>
+                                        <li class="inline"><a
+                                                href="/"
+                                                class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"
+                                            ><i
+                                                    class="uil uil-facebook-f align-middle"
+                                                    title="facebook"
+                                                ></i></a></li>
+                                        <li class="inline"><a
+                                                href="/"
+                                                class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"
+                                            ><i
+                                                    class="uil uil-instagram align-middle"
+                                                    title="instagram"
+                                                ></i></a></li>
+                                        <li class="inline"><a
+                                                href="/"
+                                                class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"
+                                            ><i
+                                                    class="uil uil-twitter align-middle"
+                                                    title="twitter"
+                                                ></i></a></li>
 
-                                    </ul><!--end icon-->
-                                </div><!--end col-->
+                                    </ul>
+                                    <!--end icon-->
+                                </div>
+                                <!--end col-->
 
                                 <div class="lg:col-span-2 md:col-span-4">
                                     <h5 class="tracking-[1px] text-gray-100 font-semibold">Company</h5>
                                     <ul class="list-none footer-list mt-6">
-                                        <li><a href="/about-us" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i class="uil uil-angle-right-b"></i> About us</a></li>
-                                        <li class="mt-[10px]"><a href="/" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i class="uil uil-angle-right-b"></i> Services</a></li>
-                                        <li class="mt-[10px]"><a href="/" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i class="uil uil-angle-right-b"></i> Team</a></li>
-                                        <li class="mt-[10px]"><a href="/" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i class="uil uil-angle-right-b"></i> Pricing</a></li>
-                                        <li class="mt-[10px]"><a href="/" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i class="uil uil-angle-right-b"></i> Project</a></li>
-                                        <li class="mt-[10px]"><a href="/donate" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i class="uil uil-angle-right-b"></i> Donate</a></li>
+                                        <li><a
+                                                href="/about-us"
+                                                class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
+                                            ><i class="uil uil-angle-right-b"></i> About us</a></li>
+                                        <li class="mt-[10px]"><a
+                                                href="/"
+                                                class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
+                                            ><i class="uil uil-angle-right-b"></i> Services</a></li>
+                                        <li class="mt-[10px]"><a
+                                                href="/"
+                                                class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
+                                            ><i class="uil uil-angle-right-b"></i> Team</a></li>
+                                        <li class="mt-[10px]"><a
+                                                href="/"
+                                                class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
+                                            ><i class="uil uil-angle-right-b"></i> Pricing</a></li>
+                                        <li class="mt-[10px]"><a
+                                                href="/"
+                                                class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
+                                            ><i class="uil uil-angle-right-b"></i> Project</a></li>
+                                        <li class="mt-[10px]"><a
+                                                href="/donate"
+                                                class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
+                                            ><i class="uil uil-angle-right-b"></i> Donate</a></li>
 
                                     </ul>
-                                </div><!--end col-->
+                                </div>
+                                <!--end col-->
 
                                 <div class="lg:col-span-3 md:col-span-4">
                                     <h5 class="tracking-[1px] text-gray-100 font-semibold">Join Our Cause:</h5>
-                                    <p class="mt-6">You can make a difference by joining our cause and supporting our work. Whether through volunteering, donating, or spreading awareness, together we can create a better world.</p>
-                                    <a href="/volunteer" class="btn btn-primary mt-4">Join Now</a>
-                                </div><!--end col-->
-                            </div><!--end grid-->
-                        </div><!--end col-->
+                                    <p class="mt-6">You can make a difference by joining our cause and supporting our
+                                        work. Whether through volunteering, donating, or spreading awareness, together
+                                        we can create a better world.</p>
+                                    <a
+                                        href="/volunteer"
+                                        class="btn btn-primary mt-4"
+                                    >Join Now</a>
+                                </div>
+                                <!--end col-->
+                            </div>
+                            <!--end grid-->
+                        </div>
+                        <!--end col-->
                     </div>
-                </div><!--end grid-->
-            </div><!--end container-->
+                </div>
+                <!--end grid-->
+            </div>
+            <!--end container-->
 
             <div class="py-[30px] px-0 border-t border-slate-800">
                 <div class="container text-center">
                     <div class="grid md:grid-cols-2 items-center">
                         <div class="ltr:md:text-left rtl:md:text-right text-center">
-                            <p class="mb-0">© <script>document.write(new Date().getFullYear())</script> Help Now.</p>
+                            <p class="mb-0">© <script>
+                                    document.write(new Date().getFullYear())
+                                </script> Help Now.</p>
                         </div>
 
                         <ul class="list-none ltr:md:text-right rtl:md:text-left text-center mt-6 md:mt-0">
-                            <li class="inline"><a href="#"><img src="assets/img/payments/american-ex.png" class="max-h-6 inline" title="American Express" alt=""></a></li>
-                            <li class="inline"><a href="#"><img src="assets/img/payments/discover.png" class="max-h-6 inline" title="Discover" alt=""></a></li>
-                            <li class="inline"><a href="#"><img src="assets/img/payments/master-card.png" class="max-h-6 inline" title="Master Card" alt=""></a></li>
-                            <li class="inline"><a href="#"><img src="assets/img/payments/paypal.png" class="max-h-6 inline" title="Paypal" alt=""></a></li>
-                            <li class="inline"><a href="#"><img src="assets/img/payments/visa.png" class="max-h-6 inline" title="Visa" alt=""></a></li>
+                            <li class="inline"><a href="#"><img
+                                        src="assets/img/payments/american-ex.png"
+                                        class="max-h-6 inline"
+                                        title="American Express"
+                                        alt=""
+                                    ></a></li>
+                            <li class="inline"><a href="#"><img
+                                        src="assets/img/payments/discover.png"
+                                        class="max-h-6 inline"
+                                        title="Discover"
+                                        alt=""
+                                    ></a></li>
+                            <li class="inline"><a href="#"><img
+                                        src="assets/img/payments/master-card.png"
+                                        class="max-h-6 inline"
+                                        title="Master Card"
+                                        alt=""
+                                    ></a></li>
+                            <li class="inline"><a href="#"><img
+                                        src="assets/img/payments/paypal.png"
+                                        class="max-h-6 inline"
+                                        title="Paypal"
+                                        alt=""
+                                    ></a></li>
+                            <li class="inline"><a href="#"><img
+                                        src="assets/img/payments/visa.png"
+                                        class="max-h-6 inline"
+                                        title="Visa"
+                                        alt=""
+                                    ></a></li>
                         </ul>
-                    </div><!--end grid-->
-                </div><!--end container-->
+                    </div>
+                    <!--end grid-->
+                </div>
+                <!--end container-->
             </div>
-        </footer><!--end footer-->
+        </footer>
+        <!--end footer-->
         <!-- Footer End -->
 
         <!-- Back to top -->
-        <a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top fixed hidden text-lg rounded-full z-10 bottom-5 end-5 h-9 w-9 text-center bg-indigo-600 text-white leading-9"><i class="uil uil-arrow-up"></i></a>
+        <a
+            href="#"
+            onclick="topFunction()"
+            id="back-to-top"
+            class="back-to-top fixed hidden text-lg rounded-full z-10 bottom-5 end-5 h-9 w-9 text-center bg-indigo-600 text-white leading-9"
+        ><i class="uil uil-arrow-up"></i></a>
         <!-- Back to top -->
 
         <!-- Switcher -->
         <div class="fixed top-[30%] -right-2 z-50">
             <span class="relative inline-block rotate-90">
-                <input type="checkbox" class="checkbox opacity-0 absolute" id="chk" />
-                <label class="label bg-slate-900 dark:bg-white shadow dark:shadow-gray-800 cursor-pointer rounded-full flex justify-between items-center p-1 w-14 h-8" for="chk">
+                <input
+                    type="checkbox"
+                    class="checkbox opacity-0 absolute"
+                    id="chk"
+                />
+                <label
+                    class="label bg-slate-900 dark:bg-white shadow dark:shadow-gray-800 cursor-pointer rounded-full flex justify-between items-center p-1 w-14 h-8"
+                    for="chk"
+                >
                     <i class="uil uil-moon text-[20px] text-yellow-500"></i>
                     <i class="uil uil-sun text-[20px] text-yellow-500"></i>
-                    <span class="ball bg-white dark:bg-slate-900 rounded-full absolute top-[2px] left-[2px] w-7 h-7"></span>
+                    <span
+                        class="ball bg-white dark:bg-slate-900 rounded-full absolute top-[2px] left-[2px] w-7 h-7"></span>
                 </label>
             </span>
         </div>
@@ -504,16 +727,42 @@
 
         <!-- LTR & RTL Mode Code -->
         <div class="fixed top-[40%] -right-3 z-50">
-            <a href="#" id="switchRtl">
-                <span class="py-1 px-3 relative inline-block rounded-t-md -rotate-90 bg-white dark:bg-slate-900 shadow-md dark:shadow dark:shadow-gray-800 font-bold rtl:block ltr:hidden" >LTR</span>
-                <span class="py-1 px-3 relative inline-block rounded-t-md -rotate-90 bg-white dark:bg-slate-900 shadow-md dark:shadow dark:shadow-gray-800 font-bold ltr:block rtl:hidden">RTL</span>
+            <a
+                href="#"
+                id="switchRtl"
+            >
+                <span
+                    class="py-1 px-3 relative inline-block rounded-t-md -rotate-90 bg-white dark:bg-slate-900 shadow-md dark:shadow dark:shadow-gray-800 font-bold rtl:block ltr:hidden"
+                >LTR</span>
+                <span
+                    class="py-1 px-3 relative inline-block rounded-t-md -rotate-90 bg-white dark:bg-slate-900 shadow-md dark:shadow dark:shadow-gray-800 font-bold ltr:block rtl:hidden"
+                >RTL</span>
             </a>
         </div>
         <!-- LTR & RTL Mode Code -->
 
         {{-- tidio live chat --}}
 
-        <script src="//code.tidio.co/vfqh1kmcskmzs9o3mmlqiw1ypprflybn.js" async></script>
+        <!-- Smartsupp Live Chat script -->
+        <script type="text/javascript">
+            var _smartsupp = _smartsupp || {};
+    _smartsupp.key = '76f2030681f5fd391ca79f6a748e4450058849ef';
+    window.smartsupp||(function(d) {
+      var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+      s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+      c.type='text/javascript';c.charset='utf-8';c.async=true;
+      c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+    })(document);
+        </script>
+        <noscript> Powered by <a
+                href=“https://www.smartsupp.com”
+                target=“_blank”
+            >Smartsupp</a></noscript>
+
+        <script
+            src="//code.tidio.co/vfqh1kmcskmzs9o3mmlqiw1ypprflybn.js"
+            async
+        ></script>
 
         <!-- JAVASCRIPTS -->
         <script src="assets/libs/jarallax/jarallax.min.js"></script>
@@ -526,5 +775,6 @@
 
     </body>
 
-<!-- Mirrored from shreethemes.in/techwind/layouts/index-charity.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 May 2023 16:46:07 GMT -->
+    <!-- Mirrored from shreethemes.in/techwind/layouts/index-charity.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 May 2023 16:46:07 GMT -->
+
 </html>
